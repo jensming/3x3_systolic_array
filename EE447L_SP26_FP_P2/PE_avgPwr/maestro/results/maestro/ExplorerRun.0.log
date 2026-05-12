@@ -1,0 +1,14 @@
+Starting Single Run, Sweeps and Corners...
+
+Current time: Tue Apr 21 15:44:09 2026 
+Best design point: 1
+Design specs: 
+	Final_Project_PE_avgPwr_1	corner	Nominal - 
+	average(abs(clip(IT("/V0/PLUS") 2e-09 6e-09)))		44.83u
+Design parameters: 
+
+ExplorerRun.0
+Number of points completed: 1
+Number of simulation errors: 0
+ExplorerRun.0 completed. 
+Current time: Tue Apr 21 15:44:26 2026 

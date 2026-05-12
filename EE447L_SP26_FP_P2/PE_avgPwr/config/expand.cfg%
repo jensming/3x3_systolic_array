@@ -1,0 +1,20 @@
+//Revision 2
+//NOTE
+// Default template for spectre
+// Note:
+//      Please remember to replace Top Cell Library, Cell, and View
+//      fields with the actual names used by your design.
+//END_NOTE
+
+config PE_avgPwr;
+design Final_Project.PE_avgPwr:schematic;
+liblist EE447L_SP26_FP_P2, EE477L_SP26_FP_P1, EE477L_SP26_Lab1, EE477L_SP26_Lab2, EE477L_SP26_Lab3, EE477_LAB1, EE477_LAB2, Final_Project, GSCLIB045, LAB2, Lab3, analogLib, basic, gpdk045, gsclib045, gsclib045_tech, sheets;
+
+viewlist spectre, cmos_sch, \cmos.sch , schematic, veriloga, ahdl, pspice, dspf;
+stoplist spectre;
+
+
+cell Final_Project.PE binding :av_extracted;
+
+
+endconfig

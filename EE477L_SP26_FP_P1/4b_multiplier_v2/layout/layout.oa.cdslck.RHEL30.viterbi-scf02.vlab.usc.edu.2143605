@@ -1,0 +1,16 @@
+#
+# Edit Lock-Stake file. CAUTION: Please do not change.
+#
+# Information about current Edit Lock Owner.
+#
+LockStakeVersion               1.1
+LoginName                      ensminge
+HostName                       viterbi-scf02.vlab.usc.edu
+ProcessIdentifier              2143605
+ProcessCreationTime_UTC        1776033072
+ProcessCreationTime_Readable   Sun Apr 12 15:31:12 2026 PDT
+AppIdentifier                  OA File System Design Manager
+OSType                         unix
+ReasonForPlacingEditLock       OpenAccess edit lock
+FilePathUsedToEditLock         /home/ensminge@vlab.usc.edu/work_gpdk045/EE477L_SP26_FP_P1/4b_multiplier_v2/layout/layout.oa.cdslck
+TimeEditLocked                 Sun Apr 12 15:40:25 2026 PDT

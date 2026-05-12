@@ -1,0 +1,16 @@
+#
+# Edit Lock-Stake file. CAUTION: Please do not change.
+#
+# Information about current Edit Lock Owner.
+#
+LockStakeVersion               1.1
+LoginName                      ensminge
+HostName                       viterbi-scf01.vlab.usc.edu
+ProcessIdentifier              153225
+ProcessCreationTime_UTC        1778572628
+ProcessCreationTime_Readable   Tue May 12 00:57:08 2026 PDT
+AppIdentifier                  /tools/cadence/IC251/tools/dfII/bin/64bit/virtuoso
+OSType                         lnx86
+ReasonForPlacingEditLock       
+FilePathUsedToEditLock         /home/ensminge@vlab.usc.edu/work_gpdk045/EE447L_SP26_FP_P3/3x3_systolic_array_FO4/maestro/maestro.sdb
+TimeEditLocked                 Tue May 12 01:01:09 2026 PDT

@@ -1,0 +1,11 @@
+BALANCED PARTITION RECIPE LOGFILE BEGIN........
+PartitioningMode: auto... CummulativeCellCost:140836 TargetClusters:1 PartitionThreshold:140836 AreaThreshold:0
+
+#########Merged Partitions Summary#########
+CellId 	Name 	COLS 	ROWS 	PartDescr
+
+
+Config to Reproduce this Partitioning:
+partition_mode=none
+
+BALANCED PARTITION RECIPE LOGFILE END........

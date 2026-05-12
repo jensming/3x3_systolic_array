@@ -1,0 +1,18 @@
+case	"preserve"
+convertDot	"node"
+convertPin	"geometryAndText"
+hierDepth	32
+labelCase	"preserve"
+labelDepth	32
+layerMap	"/home/ee577@vlab.usc.edu/CDS_GPDK45/gpdk045_v_5_0/gpdk045/gpdk045.layermap"
+library	"EE447L_SP26_FP_P3"
+logFile	"/home/ensminge@vlab.usc.edu/work_gpdk045/DRC/PIPO1.LOG"
+maxVertices	2048
+pinAttNum	0
+runDir	"/home/ensminge@vlab.usc.edu/work_gpdk045/DRC"
+strmFile	"/home/ensminge@vlab.usc.edu/work_gpdk045/DRC/3x3_systolic_array.gds.gz"
+strmVersion	5
+techLib	"gpdk045"
+topCell	"3x3_systolic_array"
+view	"layout"
+enableColoring

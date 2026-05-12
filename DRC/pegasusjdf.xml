@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF8'?>
+<jdf>
+  <initial_vars>
+  </initial_vars>
+  <job name="streamOut_/home/ensminge@vlab.usc.edu/work_gpdk045/DRC/3x3_systolic_array.gds.gz" rundir="." stdout="/home/ensminge@vlab.usc.edu/work_gpdk045/DRC/DRC_strmout.out" stderr="/home/ensminge@vlab.usc.edu/work_gpdk045/DRC/DRC_strmout.err" >
+    <task name="strmout" launcherName="OS" executable="strmout" stdout="/home/ensminge@vlab.usc.edu/work_gpdk045/DRC/PIPO1.OUT" stderr="/home/ensminge@vlab.usc.edu/work_gpdk045/DRC/PIPO1.OUT">
+      <args>
+        <arg value="-templateFile"/>
+        <arg value="/home/ensminge@vlab.usc.edu/work_gpdk045/DRC/pipo1.setup"/>
+        <arg value="-userSkillFile"/>
+        <arg value="/home/ensminge@vlab.usc.edu/work_gpdk045/DRC/strmout.il"/>
+      </args>
+    </task>
+  </job>
+  <job name="DRC_Pegasus" rundir="DRC" stdout="/home/ensminge@vlab.usc.edu/work_gpdk045/DRC/DRC_Pegasus.out" stderr="/home/ensminge@vlab.usc.edu/work_gpdk045/DRC/DRC_Pegasus.err" >
+      <wait_for>
+        <job name="streamOut_/home/ensminge@vlab.usc.edu/work_gpdk045/DRC/3x3_systolic_array.gds.gz" />
+      </wait_for>
+    <task name="pegasus" launcherName="OS" launcherTimeout="300" executable="/tools/cadence/PEGASUS251/bin/pegasus" stdout="/home/ensminge@vlab.usc.edu/work_gpdk045/DRC/pegasusuidrc.log" stderr="/home/ensminge@vlab.usc.edu/work_gpdk045/DRC/pegasusuidrc.log">
+      <args>
+        <arg value="--log_dir"/>
+        <arg value="LOGS"/>
+        <arg value="-top_cell"/>
+        <arg value="3x3_systolic_array"/>
+        <arg value="-ui_data"/>
+        <arg value="-ai"/>
+        <arg value="--control"/>
+        <arg value="/home/ensminge@vlab.usc.edu/work_gpdk045/DRC/pegasusdrcctl"/>
+        <arg value="/home/ensminge@vlab.usc.edu/work_gpdk045/DRC/.technology.rul"/>
+      </args>
+    </task>
+  </job>
+</jdf>

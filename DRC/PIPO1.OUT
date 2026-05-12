@@ -1,0 +1,230 @@
+Virtuoso Framework License (111) was checked out successfully. Total checkout time was 0.02s.
+********************************************************************************
+Product   : Virtuoso(R) XStream Out
+Program   : @(#)$CDS: strmout version IC25.1-64b 06/17/2025 18:21 (cpgbld31) $
+          : sub-version  IC25.1-64b.38 
+Started at: 01-May-2026  10:45:05
+User Name : ensminge
+Host Name : viterbi-scf01.vlab.usc.edu
+Directory : /home/ensminge@vlab.usc.edu/work_gpdk045
+CADENCE Design Systems, Inc.
+********************************************************************************
+Info: Cellview Rev Num:99,  Tech Rev Num:59
+
+WARNING (XSTRM-20): Output Stream file '/home/ensminge@vlab.usc.edu/work_gpdk045/DRC/3x3_systolic_array.gds.gz' already exists. It will be overwritten.
+Loading gpdk045/libInit.il ...
+	Loading gpdk045/loadCxt.ile ... done!
+	Loading context 'gpdk045' from library 'gpdk045' ... done!
+	Loading context 'pdkUtils' from library 'gpdk045' ... done!
+	Loading gpdk045/gpdk045_customFilter.il ... done!
+	Loading gpdk045/libInitCustomExit.il ... 
+	Loading Environment Settings ...
+	Loading gpdk045/gpdk045_PDKRegistrations.il ... done!
+
+  *************************************************************           
+  *              Cadence Design Systems, Inc.                 *           
+  *                                                           *           
+  *                    Generic 45nm PDK                       *           
+  *                        (gpdk045)                          *           
+  *                                                           *           
+  *************************************************************           
+	
+
+	VERSION: 5.0 (22-Feb-2016)
+
+done!
+Loaded gpdk045/libInit.il successfully!
+INFO (XSTRM-217): Reading the layer map file, /home/ee577@vlab.usc.edu/CDS_GPDK45/gpdk045_v_5_0/gpdk045/gpdk045.layermap
+WARNING (XSTRM-333): The '-enableColoring' option will be ignored during XStream Out. This is because there is no color entry in the layer map and the object map file.
+INFO (XSTRM-427): Based on current hardware configuration, running XStream Out translation in multi-threaded mode with 4 threads.
+INFO (XSTRM-280): The output file will be a compressed file because the file name has extension .gz
+INFO (XSTRM-162): You have not used the '-viaMap' option. If the OpenAccess design has native oaVia instances, use the '-viaMap' option for preserving oaVia instances in a XStream Out - XStream In round trip. Using the '-viaMap' option improves performance and VM usage of applications using the Streamed-In design.
+
+Summary of Options :
+library                                 EE447L_SP26_FP_P3
+strmFile                                /home/ensminge@vlab.usc.edu/work_gpdk045/DRC/3x3_systolic_array.gds.gz
+topCell                                 3x3_systolic_array
+view                                    layout
+runDir                                  /home/ensminge@vlab.usc.edu/work_gpdk045/DRC
+logFile                                 /home/ensminge@vlab.usc.edu/work_gpdk045/DRC/PIPO1.LOG
+techLib                                 gpdk045
+hierDepth                               32
+maxVertices                             2048
+layerMap                                /home/ee577@vlab.usc.edu/CDS_GPDK45/gpdk045_v_5_0/gpdk045/gpdk045.layermap
+userSkillFile                           /home/ensminge@vlab.usc.edu/work_gpdk045/DRC/strmout.il
+labelDepth                              32
+case                                    Preserve
+convertDot                              node
+convertPin                              geometryAndText
+
+INFO (XSTRM-180): You have not used the '-objectMap' option. The design has instance(s) of at least one of following OpenAccess objects: oaBlockage, oaBoundary, oaRow, and oaMarker. Any information about these objects will not be translated into the generated stream file. Use the '-objectMap' option to translate/preserve these objects using XStream.
+INFO (XSTRM-223): 1. Translating stdVia gpdk045/M4_M3/layout as STRUCTURE M4_M3_CDNS_777657505550.
+INFO (XSTRM-223): 2. Translating stdVia gpdk045/M3_M2/layout as STRUCTURE M3_M2_CDNS_777657505551.
+INFO (XSTRM-223): 3. Translating stdVia gpdk045/M2_M1/layout as STRUCTURE M2_M1_CDNS_777657505552.
+INFO (XSTRM-223): 4. Translating stdVia gpdk045/M5_M4/layout as STRUCTURE M5_M4_CDNS_777657505553.
+INFO (XSTRM-223): 5. Translating stdVia gpdk045/M2_M1/layout as STRUCTURE M2_M1_CDNS_777657505554.
+INFO (XSTRM-223): 6. Translating stdVia gpdk045/M4_M3/layout as STRUCTURE M4_M3_CDNS_777657505555.
+INFO (XSTRM-223): 7. Translating stdVia gpdk045/M3_M2/layout as STRUCTURE M3_M2_CDNS_777657505556.
+INFO (XSTRM-223): 8. Translating stdVia gpdk045/M2_M1/layout as STRUCTURE M2_M1_CDNS_777657505557.
+INFO (XSTRM-223): 9. Translating stdVia gpdk045/M5_M4/layout as STRUCTURE M5_M4_CDNS_777657505558.
+INFO (XSTRM-223): 10. Translating stdVia gpdk045/M4_M3/layout as STRUCTURE M4_M3_CDNS_777657505559.
+INFO (XSTRM-223): 11. Translating stdVia gpdk045/M3_M2/layout as STRUCTURE M3_M2_CDNS_7776575055510.
+INFO (XSTRM-223): 12. Translating stdVia gpdk045/M5_M4/layout as STRUCTURE M5_M4_CDNS_7776575055511.
+INFO (XSTRM-223): 13. Translating stdVia gpdk045/M2_M1/layout as STRUCTURE M2_M1_CDNS_7776575055512.
+INFO (XSTRM-223): 14. Translating stdVia gpdk045/M5_M4/layout as STRUCTURE M5_M4_CDNS_7776575055513.
+INFO (XSTRM-223): 15. Translating stdVia gpdk045/M4_M3/layout as STRUCTURE M4_M3_CDNS_7776575055514.
+INFO (XSTRM-223): 16. Translating stdVia gpdk045/M3_M2/layout as STRUCTURE M3_M2_CDNS_7776575055515.
+INFO (XSTRM-223): 17. Translating stdVia gpdk045/M5_M4/layout as STRUCTURE M5_M4_CDNS_7776575055516.
+INFO (XSTRM-223): 18. Translating stdVia gpdk045/M4_M3/layout as STRUCTURE M4_M3_CDNS_7776575055517.
+INFO (XSTRM-223): 19. Translating stdVia gpdk045/M3_M2/layout as STRUCTURE M3_M2_CDNS_7776575055518.
+INFO (XSTRM-223): 20. Translating stdVia gpdk045/M2_M1/layout as STRUCTURE M2_M1_CDNS_7776575055519.
+INFO (XSTRM-223): 21. Translating stdVia gpdk045/M3_M2/layout as STRUCTURE M3_M2_CDNS_7776575055520.
+INFO (XSTRM-223): 22. Translating stdVia gpdk045/M2_M1/layout as STRUCTURE M2_M1_CDNS_7776575055521.
+INFO (XSTRM-223): 23. Translating stdVia gpdk045/M6_M5/layout as STRUCTURE M6_M5_CDNS_7776575055522.
+INFO (XSTRM-223): 24. Translating stdVia gpdk045/M6_M5/layout as STRUCTURE M6_M5_CDNS_7776575055523.
+INFO (XSTRM-223): 25. Translating stdVia gpdk045/M5_M4/layout as STRUCTURE M5_M4_CDNS_7776575055524.
+INFO (XSTRM-223): 26. Translating stdVia gpdk045/M4_M3/layout as STRUCTURE M4_M3_CDNS_7776575055525.
+INFO (XSTRM-223): 27. Translating stdVia gpdk045/M3_M2/layout as STRUCTURE M3_M2_CDNS_7776575055526.
+INFO (XSTRM-223): 28. Translating stdVia gpdk045/M6_M5/layout as STRUCTURE M6_M5_CDNS_7776575055527.
+INFO (XSTRM-223): 29. Translating stdVia gpdk045/M6_M5/layout as STRUCTURE M6_M5_CDNS_7776575055528.
+INFO (XSTRM-223): 30. Translating stdVia gpdk045/M2_M1/layout as STRUCTURE M2_M1_CDNS_7776575055529.
+INFO (XSTRM-223): 31. Translating cellview gsclib045_tech/cellTmpl/layout as STRUCTURE cellTmpl_CDNS_777657505550.
+INFO (XSTRM-223): 32. Translating cellview gsclib045_tech/cellTmpl/layout as STRUCTURE cellTmpl_CDNS_777657505551.
+INFO (XSTRM-223): 33. Translating cellview gsclib045_tech/cellTmpl/layout as STRUCTURE cellTmpl_CDNS_777657505552.
+INFO (XSTRM-223): 34. Translating cellview gsclib045_tech/cellTmpl/layout as STRUCTURE cellTmpl_CDNS_777657505553.
+INFO (XSTRM-223): 35. Translating cellview gsclib045_tech/cellTmpl/layout as STRUCTURE cellTmpl_CDNS_777657505554.
+INFO (XSTRM-223): 36. Translating stdVia gpdk045/M4_M3/layout as STRUCTURE M4_M3_CDNS_7776575055530.
+INFO (XSTRM-223): 37. Translating stdVia gpdk045/M2_M1/layout as STRUCTURE M2_M1_CDNS_7776575055531.
+INFO (XSTRM-223): 38. Translating stdVia gpdk045/M4_M3/layout as STRUCTURE M4_M3_CDNS_7776575055532.
+INFO (XSTRM-223): 39. Translating stdVia gpdk045/M3_M2/layout as STRUCTURE M3_M2_CDNS_7776575055533.
+INFO (XSTRM-223): 40. Translating stdVia gpdk045/M1_PO/layout as STRUCTURE M1_PO_CDNS_7776575055534.
+INFO (XSTRM-223): 41. Translating cellview gpdk045/pmos1v/layout as STRUCTURE pmos1v_CDNS_777657505555.
+INFO (XSTRM-223): 42. Translating cellview gpdk045/nmos1v/layout as STRUCTURE nmos1v_CDNS_777657505556.
+INFO (XSTRM-223): 43. Translating cellview gpdk045/nmos1v/layout as STRUCTURE nmos1v_CDNS_777657505557.
+INFO (XSTRM-223): 44. Translating cellview gpdk045/pmos1v/layout as STRUCTURE pmos1v_CDNS_777657505558.
+INFO (XSTRM-223): 45. Translating cellview EE477L_SP26_Lab1/NAND_1X/layout as STRUCTURE NAND_1X.
+INFO (XSTRM-223): 46. Translating cellview gpdk045/pmos1v/layout as STRUCTURE pmos1v_CDNS_777657505559.
+INFO (XSTRM-223): 47. Translating cellview gpdk045/nmos1v/layout as STRUCTURE nmos1v_CDNS_7776575055510.
+INFO (XSTRM-223): 48. Translating cellview EE477L_SP26_FP_P1/TG/layout as STRUCTURE TG.
+INFO (XSTRM-223): 49. Translating cellview gpdk045/pmos1v/layout as STRUCTURE pmos1v_CDNS_7776575055511.
+INFO (XSTRM-223): 50. Translating cellview EE477L_SP26_Lab1/NOT_1X/layout as STRUCTURE NOT_1X.
+INFO (XSTRM-223): 51. Translating cellview gpdk045/pmos1v/layout as STRUCTURE pmos1v_CDNS_7776575055512.
+INFO (XSTRM-223): 52. Translating cellview gpdk045/pmos1v/layout as STRUCTURE pmos1v_CDNS_7776575055513.
+INFO (XSTRM-223): 53. Translating cellview EE477L_SP26_FP_P1/CLK_INV_1X/layout as STRUCTURE CLK_INV_1X.
+INFO (XSTRM-223): 54. Translating cellview gsclib045_tech/cellTmpl/layout as STRUCTURE cellTmpl_CDNS_7776575055514.
+INFO (XSTRM-223): 55. Translating cellview gsclib045_tech/cellTmpl/layout as STRUCTURE cellTmpl_CDNS_7776575055515.
+INFO (XSTRM-223): 56. Translating cellview EE477L_SP26_FP_P1/DFF_RST/layout as STRUCTURE DFF_RST.
+INFO (XSTRM-223): 57. Translating stdVia gpdk045/M2_M1/layout as STRUCTURE M2_M1_CDNS_7776575055535.
+INFO (XSTRM-223): 58. Translating stdVia gpdk045/M1_PO/layout as STRUCTURE M1_PO_CDNS_7776575055536.
+INFO (XSTRM-223): 59. Translating cellview gpdk045/pmos1v/layout as STRUCTURE pmos1v_CDNS_7776575055516.
+INFO (XSTRM-223): 60. Translating cellview gpdk045/nmos1v/layout as STRUCTURE nmos1v_CDNS_7776575055517.
+INFO (XSTRM-223): 61. Translating cellview gpdk045/pmos1v/layout as STRUCTURE pmos1v_CDNS_7776575055518.
+INFO (XSTRM-223): 62. Translating cellview gpdk045/nmos1v/layout as STRUCTURE nmos1v_CDNS_7776575055519.
+INFO (XSTRM-223): 63. Translating cellview gsclib045_tech/cellTmpl/layout as STRUCTURE cellTmpl_CDNS_7776575055520.
+INFO (XSTRM-223): 64. Translating cellview EE477L_SP26_Lab1/MUX_1X/layout as STRUCTURE MUX_1X.
+INFO (XSTRM-223): 65. Translating cellview gsclib045_tech/cellTmpl/layout as STRUCTURE cellTmpl_CDNS_7776575055521.
+INFO (XSTRM-223): 66. Translating cellview gsclib045_tech/cellTmpl/layout as STRUCTURE cellTmpl_CDNS_7776575055522.
+INFO (XSTRM-223): 67. Translating cellview gsclib045_tech/cellTmpl/layout as STRUCTURE cellTmpl_CDNS_7776575055523.
+INFO (XSTRM-223): 68. Translating cellview gsclib045_tech/cellTmpl/layout as STRUCTURE cellTmpl_CDNS_7776575055524.
+INFO (XSTRM-223): 69. Translating cellview gsclib045_tech/cellTmpl/layout as STRUCTURE cellTmpl_CDNS_7776575055525.
+INFO (XSTRM-223): 70. Translating cellview gsclib045_tech/cellTmpl/layout as STRUCTURE cellTmpl_CDNS_7776575055526.
+INFO (XSTRM-223): 71. Translating cellview gsclib045_tech/cellTmpl/layout as STRUCTURE cellTmpl_CDNS_7776575055527.
+INFO (XSTRM-223): 72. Translating cellview gsclib045_tech/cellTmpl/layout as STRUCTURE cellTmpl_CDNS_7776575055528.
+INFO (XSTRM-223): 73. Translating cellview gpdk045/pmos1v/layout as STRUCTURE pmos1v_CDNS_7776575055529.
+INFO (XSTRM-223): 74. Translating cellview gpdk045/nmos1v/layout as STRUCTURE nmos1v_CDNS_7776575055530.
+INFO (XSTRM-223): 75. Translating cellview EE477L_SP26_Lab2/NOT_4X/layout as STRUCTURE NOT_4X.
+INFO (XSTRM-223): 76. Translating stdVia gpdk045/M4_M3/layout as STRUCTURE M4_M3_CDNS_7776575055537.
+INFO (XSTRM-223): 77. Translating stdVia gpdk045/M3_M2/layout as STRUCTURE M3_M2_CDNS_7776575055538.
+INFO (XSTRM-223): 78. Translating stdVia gpdk045/M5_M4/layout as STRUCTURE M5_M4_CDNS_7776575055539.
+INFO (XSTRM-223): 79. Translating cellview gsclib045_tech/cellTmpl/layout as STRUCTURE cellTmpl_CDNS_7776575055531.
+INFO (XSTRM-223): 80. Translating cellview EE477L_SP26_FP_P1/NAND_1X/layout as STRUCTURE NAND_1X_1.
+INFO (XSTRM-223): 81. Translating cellview gpdk045/nmos1v/layout as STRUCTURE nmos1v_CDNS_7776575055532.
+INFO (XSTRM-223): 82. Translating cellview gsclib045_tech/cellTmpl/layout as STRUCTURE cellTmpl_CDNS_7776575055533.
+INFO (XSTRM-223): 83. Translating cellview gpdk045/pmos1v/layout as STRUCTURE pmos1v_CDNS_7776575055534.
+INFO (XSTRM-223): 84. Translating cellview gpdk045/nmos1v/layout as STRUCTURE nmos1v_CDNS_7776575055535.
+INFO (XSTRM-223): 85. Translating cellview gpdk045/pmos1v/layout as STRUCTURE pmos1v_CDNS_7776575055536.
+INFO (XSTRM-223): 86. Translating cellview EE477L_SP26_FP_P1/NAND_2X/layout as STRUCTURE NAND_2X.
+INFO (XSTRM-223): 87. Translating stdVia gpdk045/M3_M2/layout as STRUCTURE M3_M2_CDNS_7776575055540.
+INFO (XSTRM-223): 88. Translating cellview gpdk045/pmos1v/layout as STRUCTURE pmos1v_CDNS_7776575055537.
+INFO (XSTRM-223): 89. Translating cellview gpdk045/pmos1v/layout as STRUCTURE pmos1v_CDNS_7776575055538.
+INFO (XSTRM-223): 90. Translating cellview gpdk045/nmos1v/layout as STRUCTURE nmos1v_CDNS_7776575055539.
+INFO (XSTRM-223): 91. Translating cellview gpdk045/nmos1v/layout as STRUCTURE nmos1v_CDNS_7776575055540.
+INFO (XSTRM-223): 92. Translating cellview gpdk045/nmos1v/layout as STRUCTURE nmos1v_CDNS_7776575055541.
+INFO (XSTRM-223): 93. Translating cellview gpdk045/pmos1v/layout as STRUCTURE pmos1v_CDNS_7776575055542.
+INFO (XSTRM-223): 94. Translating cellview EE477L_SP26_FP_P1/XOR_1X/layout as STRUCTURE XOR_1X.
+INFO (XSTRM-317): The 'EE477L_SP26_FP_P1/XOR_1X/layout' has a pathSeg with diagonal orientation, or end style as custom or chamfer at (3875, 1370). This pathSeg will be translated as a boundary record in the GDS file during XStream Out.
+INFO (XSTRM-317): The 'EE477L_SP26_FP_P1/XOR_1X/layout' has a pathSeg with diagonal orientation, or end style as custom or chamfer at (4575, 1980). This pathSeg will be translated as a boundary record in the GDS file during XStream Out.
+INFO (XSTRM-317): The 'EE477L_SP26_FP_P1/XOR_1X/layout' has a pathSeg with diagonal orientation, or end style as custom or chamfer at (2045, 1490). This pathSeg will be translated as a boundary record in the GDS file during XStream Out.
+INFO (XSTRM-223): 95. Translating cellview EE477L_SP26_FP_P1/FA_1b_Cout/layout as STRUCTURE FA_1b_Cout.
+INFO (XSTRM-223): 96. Translating cellview gpdk045/pmos1v/layout as STRUCTURE pmos1v_CDNS_7776575055543.
+INFO (XSTRM-223): 97. Translating cellview gsclib045_tech/cellTmpl/layout as STRUCTURE cellTmpl_CDNS_7776575055544.
+INFO (XSTRM-223): 98. Translating cellview EE477L_SP26_FP_P1/XOR_4X/layout as STRUCTURE XOR_4X.
+INFO (XSTRM-317): The 'EE477L_SP26_FP_P1/XOR_4X/layout' has a pathSeg with diagonal orientation, or end style as custom or chamfer at (2505, 1890). This pathSeg will be translated as a boundary record in the GDS file during XStream Out.
+INFO (XSTRM-223): 99. Translating cellview EE477L_SP26_FP_P1/FA_1b/layout as STRUCTURE FA_1b.
+INFO (XSTRM-223): 100. Translating cellview EE477L_SP26_FP_P1/FA_4b/layout as STRUCTURE FA_4b.
+INFO (XSTRM-223): 101. Translating cellview EE477L_SP26_FP_P1/10B_ADDER_v1/layout as STRUCTURE 10B_ADDER_v1.
+INFO (XSTRM-223): 102. Translating cellview gsclib045_tech/cellTmpl/layout as STRUCTURE cellTmpl_CDNS_7776575055545.
+INFO (XSTRM-223): 103. Translating cellview gsclib045_tech/cellTmpl/layout as STRUCTURE cellTmpl_CDNS_7776575055546.
+INFO (XSTRM-223): 104. Translating cellview gsclib045_tech/cellTmpl/layout as STRUCTURE cellTmpl_CDNS_7776575055547.
+INFO (XSTRM-223): 105. Translating cellview gsclib045_tech/cellTmpl/layout as STRUCTURE cellTmpl_CDNS_7776575055548.
+INFO (XSTRM-223): 106. Translating cellview gsclib045_tech/cellTmpl/layout as STRUCTURE cellTmpl_CDNS_7776575055549.
+INFO (XSTRM-223): 107. Translating cellview gsclib045_tech/cellTmpl/layout as STRUCTURE cellTmpl_CDNS_7776575055550.
+INFO (XSTRM-223): 108. Translating cellview EE477L_SP26_FP_P1/AND_1X/layout as STRUCTURE AND_1X.
+INFO (XSTRM-223): 109. Translating cellview gpdk045/pmos1v/layout as STRUCTURE pmos1v_CDNS_7776575055551.
+INFO (XSTRM-223): 110. Translating cellview gpdk045/pmos1v/layout as STRUCTURE pmos1v_CDNS_7776575055552.
+INFO (XSTRM-223): 111. Translating cellview EE477L_SP26_Lab2/XOR_1X/layout as STRUCTURE XOR_1X_2.
+INFO (XSTRM-223): 112. Translating cellview gsclib045_tech/cellTmpl/layout as STRUCTURE cellTmpl_CDNS_7776575055553.
+INFO (XSTRM-223): 113. Translating cellview EE477L_SP26_FP_P1/HA_1b/layout as STRUCTURE HA_1b.
+INFO (XSTRM-223): 114. Translating cellview gpdk045/pmos1v/layout as STRUCTURE pmos1v_CDNS_7776575055554.
+INFO (XSTRM-223): 115. Translating cellview gpdk045/nmos1v/layout as STRUCTURE nmos1v_CDNS_7776575055555.
+INFO (XSTRM-223): 116. Translating cellview gpdk045/pmos1v/layout as STRUCTURE pmos1v_CDNS_7776575055556.
+INFO (XSTRM-223): 117. Translating cellview gpdk045/nmos1v/layout as STRUCTURE nmos1v_CDNS_7776575055557.
+INFO (XSTRM-223): 118. Translating cellview EE477L_SP26_Lab2/NAND_2X/layout as STRUCTURE NAND_2X_3.
+INFO (XSTRM-317): The 'EE477L_SP26_Lab2/NAND_2X/layout' has a pathSeg with diagonal orientation, or end style as custom or chamfer at (775, 1935). This pathSeg will be translated as a boundary record in the GDS file during XStream Out.
+INFO (XSTRM-223): 119. Translating cellview EE477L_SP26_Lab3/FA_1b_opt_CinToCout/layout as STRUCTURE FA_1b_opt_CinToCout.
+INFO (XSTRM-223): 120. Translating cellview gpdk045/pmos1v/layout as STRUCTURE pmos1v_CDNS_7776575055558.
+INFO (XSTRM-223): 121. Translating cellview EE477L_SP26_Lab2/XOR_2X/layout as STRUCTURE XOR_2X.
+INFO (XSTRM-223): 122. Translating cellview EE477L_SP26_Lab3/FA_1b_opt_CinToS/layout as STRUCTURE FA_1b_opt_CinToS.
+INFO (XSTRM-223): 123. Translating cellview gsclib045_tech/cellTmpl/layout as STRUCTURE cellTmpl_CDNS_7776575055559.
+INFO (XSTRM-223): 124. Translating cellview gsclib045_tech/cellTmpl/layout as STRUCTURE cellTmpl_CDNS_7776575055560.
+INFO (XSTRM-223): 125. Translating cellview gsclib045_tech/cellTmpl/layout as STRUCTURE cellTmpl_CDNS_7776575055561.
+INFO (XSTRM-223): 126. Translating cellview gsclib045_tech/cellTmpl/layout as STRUCTURE cellTmpl_CDNS_7776575055562.
+INFO (XSTRM-223): 127. Translating cellview gsclib045_tech/cellTmpl/layout as STRUCTURE cellTmpl_CDNS_7776575055563.
+INFO (XSTRM-223): 128. Translating cellview gsclib045_tech/cellTmpl/layout as STRUCTURE cellTmpl_CDNS_7776575055564.
+INFO (XSTRM-223): 129. Translating cellview gsclib045_tech/cellTmpl/layout as STRUCTURE cellTmpl_CDNS_7776575055565.
+INFO (XSTRM-223): 130. Translating cellview gsclib045_tech/cellTmpl/layout as STRUCTURE cellTmpl_CDNS_7776575055566.
+INFO (XSTRM-223): 131. Translating cellview EE477L_SP26_FP_P1/4b_multiplier_v2/layout as STRUCTURE 4b_multiplier_v2.
+INFO (XSTRM-223): 132. Translating cellview EE447L_SP26_FP_P2/MAC_v2/layout as STRUCTURE MAC_v2.
+INFO (XSTRM-223): 133. Translating cellview EE447L_SP26_FP_P2/PE/layout as STRUCTURE PE.
+INFO (XSTRM-223): 134. Translating cellview EE447L_SP26_FP_P3/PE_GROUP/layout as STRUCTURE PE_GROUP.
+INFO (XSTRM-223): 135. Translating cellview gsclib045_tech/cellTmpl/layout as STRUCTURE cellTmpl_CDNS_7776575055567.
+INFO (XSTRM-223): 136. Translating cellview EE447L_SP26_FP_P3/3x3_systolic_array/layout as STRUCTURE 3x3_systolic_array.
+
+Summary of Objects Translated:
+	Scalar Instances:                       391
+	Array Instances:                        0
+	Polygons:                               0
+	Paths:                                  70
+	Rectangles:                             6137
+	Lines:                                  0
+	Arcs:                                   0
+	Donuts:                                 0
+	Dots:                                   0
+	Ellipses:                               0
+	Boundaries:                             0
+	Area Blockages:                         0
+	Layer Blockages:                        0
+	Area Halos:                             0
+	Markers:                                0
+	Rows:                                   0
+	Stitch:                                 0
+	Standard Vias                           1162
+	Custom Vias:                            0
+	CdsGen Vias:                            0
+	Pathsegs:                               1908
+	Text:                                   205
+	TextDisplay:                            0
+	Cells:                                  136
+
+Elapsed Time: 0.7s   User Time: 0.3s   CPU Time: 0.1s   Peak VM: 45612KB
+INFO (XSTRM-234): Translation completed. '0' error(s) and '2' warning(s) found.

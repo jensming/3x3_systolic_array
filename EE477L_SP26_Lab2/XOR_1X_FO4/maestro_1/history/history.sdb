@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<setupdb version="7">history
+	<active>Active Setup</active>
+	<history>History
+		<historyentry assemblerOrExplorer="explorer" roOrView="view" runningOrFinished="finished">ExplorerRun.0
+			<timestamp>Feb 28 00:48:29 2026</timestamp>
+			<uuid>{be2e8971-d593-4c59-956a-593a2df165bd}</uuid>
+			<locked>0</locked>
+			<mode>Single Run, Sweeps and Corners</mode>
+			<resultsname>/home/ensminge@vlab.usc.edu/work_gpdk045/EE477L_SP26_Lab2/XOR_1X_FO4/maestro_1/results/maestro/$AXL_HISTORY_NAME.rdb</resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/maestro/$AXL_HISTORY_NAME.rdb</simresults>
+			<psfdir>/home/ensminge@vlab.usc.edu/simulation/EE477L_SP26_Lab2/XOR_1X_FO4/maestro_1/results/maestro/$AXL_HISTORY_NAME</psfdir>
+			<simdir>$AXL_PROJECT_DIR/EE477L_SP26_Lab2/XOR_1X_FO4/maestro_1/results/maestro/$AXL_HISTORY_NAME</simdir>
+			<historyPsfSize>Not Computed</historyPsfSize>
+		</historyentry>
+	</history>
+</setupdb>

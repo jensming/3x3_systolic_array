@@ -1,0 +1,20 @@
+//Revision 2
+//NOTE
+// Default template for spectre
+// Note:
+//      Please remember to replace Top Cell Library, Cell, and View
+//      fields with the actual names used by your design.
+//END_NOTE
+
+config MUX_1X_FO4;
+design EE477L_SP26_Lab1.MUX_1X_FO4:schematic;
+liblist EE477L_SP26_Lab1, GSCLIB045, analogLib, basic, gpdk045, gsclib045, gsclib045_tech;
+
+viewlist spectre, cmos_sch, \cmos.sch , schematic, veriloga, ahdl, pspice, dspf;
+stoplist spectre;
+
+
+cell EE477L_SP26_Lab1.MUX_1X_old binding :av_extracted;
+
+
+endconfig
