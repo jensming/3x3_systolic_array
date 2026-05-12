@@ -3,7 +3,11 @@ Used Cadence Virtuoso to design a fully custom matrix multiplication accelerator
 
 Note: The extracted view of the 3x3_systolic_array was excluded due to the size of the file exceeding GitHub's allowed upload limit. One will have to be generated again with the config file updated accordingly.
 
-<img width="768" height="1024" alt="9B791114-65CC-4388-9600-33161986F882_1_105_c" src="https://github.com/user-attachments/assets/440e7892-c2ff-4b89-b25d-ca5d5f1f282c" />
+<img width="1735" height="938" alt="image" src="https://github.com/user-attachments/assets/34cb935d-9769-4a49-bb35-a7040674834d" />
+
+<br/>
+
+<img width="1758" height="894" alt="image" src="https://github.com/user-attachments/assets/a001d9c1-d451-4987-a585-928dcd721c92" />
 
 <br/>
 
