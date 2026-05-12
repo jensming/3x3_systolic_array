@@ -5,6 +5,6 @@ Note: The extracted view of the 3x3_systolic_array was excluded due to the size 
 
 <img width="612" height="792" alt="image" src="https://github.com/user-attachments/assets/a79dbad3-d47e-4d8c-86cf-4108eab276fa" />
 
-<br \>
+<br/><br/>
 
 <img width="1912" height="1001" alt="image" src="https://github.com/user-attachments/assets/1400cb6b-b083-4e2a-af17-512366902708" />
